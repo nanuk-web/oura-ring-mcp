@@ -167,7 +167,7 @@ export async function startHttpServer(
         baseUrl: baseUrl,
         resourceServerUrl: baseUrl,
         resourceName: "Oura MCP Server",
-        scopesSupported: [],
+        scopesSupported: ["offline_access"],
       })
     );
 
